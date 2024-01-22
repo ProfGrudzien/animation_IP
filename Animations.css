@@ -1,0 +1,36 @@
+.animation {
+    border: 1px solid gray;
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    padding: 20px;
+    font-size: 14pt;
+    font-family: monospace;
+    position: relative;
+    user-select: none;
+}
+
+.lancer {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 275px 275px;
+}
+
+svg {
+    display: inline;
+    width: 600px;
+    height: 600px;
+}
+
+circle {
+    stroke: black;
+    fill: white;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: central;
+    font-size: 12pt;
+    transform-origin: center;
+}

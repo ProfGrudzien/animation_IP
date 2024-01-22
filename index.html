@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="Animations.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Le routage</h1>
+            <p>
+                L’objectif est de permettre à deux machines du réseau de communiquer en passant par un chemin raisonnablement court, si possible optimal.
+            </p>
+            <p>
+                Le principe est de renseigner une <mark>table de routage</mark> à chaque nœud du réseau comportant l’adresse des autres nœuds directement connectés. Ensuite, de proche en proche, chaque nœud complète sa table en indiquant l'adresse du prochain intermédiaire à contacter pour communiquer avec les nœuds plus éloignés.
+            </p>
+            <div class="animation" id="animationIP">
+                <input type="button" value="▶" class="lancer"/>
+            </div>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="AnimationsIP.js"></script>
+    </body>
+</html>
